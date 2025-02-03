@@ -22,7 +22,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
 @RestController
-@RequestMapping("/question_sumit")
+@RequestMapping("/question_submit")
 @Slf4j
 public class QuestionSubmitController {
 

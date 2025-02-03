@@ -3,14 +3,13 @@ package com.swang.acmOJ.model.vo;
 import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.swang.acmOJ.model.dto.questionsubmit.JudgeInfo;
+import com.swang.acmOJ.judge.codesandbox.model.JudgeInfo;
 import com.swang.acmOJ.model.entity.QuestionSubmit;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
 
 /**
  * 题目提交
